@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Social Run">
+<rect width="800" height="600" fill="#eef7f6"/>
+<rect width="800" height="600" fill="url(#g2)" opacity="0.25"/>
+<defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#7AD1B5"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<g fill="none" stroke="#7AD1B5" stroke-width="3" opacity="0.5">
+<circle cx="400" cy="250" r="120"/><path d="M120 480 H680" stroke-width="6"/></g>
+<text x="400" y="315" font-family="Poppins, Arial, sans-serif" font-size="42" font-weight="600" fill="#127c74" text-anchor="middle">Social Run</text>
+<text x="400" y="360" font-family="Poppins, Arial, sans-serif" font-size="20" fill="#4a5a58" text-anchor="middle">Miércorres Running Club</text>
+</svg>

@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Run · Miércorres Running Club</title>
+  <meta name="description" content="Nuestras Social Runs en Totana: día, hora, punto de encuentro, distancia y recorrido en mapa.">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div data-header></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Social Run</span>
+        <h1>Corremos juntos, a nuestro ritmo</h1>
+        <p>Una Social Run es una quedada abierta para correr en grupo, sin cronómetro ni presión. Se trata de compartir kilómetros, conocer gente y disfrutar de Totana. Aquí publicamos cada nueva quedada con todos los detalles.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Cómo funciona</span>
+          <h2>Todo lo que necesitas saber</h2>
+          <p>Llega unos minutos antes al punto de encuentro, avisa por WhatsApp si es tu primera vez y ven con agua y ganas. Hacemos grupos por ritmos y nadie se queda atrás.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Calendario</span>
+          <h2>Próximas Social Runs</h2>
+          <p>Duplica el bloque de una tarjeta para añadir nuevas quedadas. Sustituye el mapa por el enlace real de vuestro recorrido (Google Maps, Strava o Wikiloc).</p>
+        </div>
+
+        <!-- ======= PRÓXIMA SOCIAL RUN (plantilla — duplica este bloque) ======= -->
+        <article class="run">
+          <div class="run-info">
+            <span class="run-status run-status--next">Próxima</span>
+            <h3>[ Social Run #01 — título de la ruta ]</h3>
+            <ul class="run-meta">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span><strong>Día y hora:</strong> [ Miércoles XX/XX · 20:00 h ]</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span><strong>Punto de encuentro:</strong> [ Plaza de la Balsa Vieja, Totana ]</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 20l6-16M4 20l16-6"/><circle cx="18.5" cy="5.5" r="1.5"/></svg>
+                <span><strong>Distancia:</strong> [ 8 km · ritmo suave ]</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l-6 3V6l6-3 6 3 6-3v15l-6 3-6-3z"/><path d="M9 3v15M15 6v15"/></svg>
+                <span><strong>Recorrido:</strong> circular por el casco urbano. Ver mapa a la derecha.</span>
+              </li>
+            </ul>
+            <a class="btn btn--ghost" data-social="whatsapp" target="_blank" rel="noopener">Apuntarme por WhatsApp</a>
+          </div>
+          <!-- EDITA el src del iframe con vuestro mapa/ruta real (Google My Maps, Wikiloc embed, etc.) -->
+          <iframe class="run-map" title="Mapa del recorrido de la Social Run #01"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-1.510%2C37.755%2C-1.480%2C37.775&layer=mapnik&marker=37.765,-1.495"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+
+        <!-- ======= EJEMPLO SOCIAL RUN PASADA ======= -->
+        <article class="run">
+          <div class="run-info">
+            <span class="run-status run-status--past">Finalizada</span>
+            <h3>[ Social Run #00 — ruta anterior ]</h3>
+            <ul class="run-meta">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <span><strong>Día y hora:</strong> [ Miércoles XX/XX · 20:00 h ]</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span><strong>Punto de encuentro:</strong> [ Lugar de la quedada ]</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 20l6-16M4 20l16-6"/><circle cx="18.5" cy="5.5" r="1.5"/></svg>
+                <span><strong>Distancia:</strong> [ 6 km ]</span>
+              </li>
+            </ul>
+          </div>
+          <iframe class="run-map" title="Mapa del recorrido de la Social Run #00"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-1.510%2C37.755%2C-1.480%2C37.775&layer=mapnik"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+
+        <p class="note" style="max-width:780px;margin-inline:auto">
+          <strong>Consejo:</strong> para insertar un recorrido concreto, crea la ruta en Google My Maps o
+          Wikiloc, pulsa <em>Compartir / Insertar mapa</em>, copia el enlace del <code>iframe</code> y
+          pégalo en el atributo <code>src</code> del mapa correspondiente.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div data-footer></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
