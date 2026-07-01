@@ -130,7 +130,8 @@ p { color: var(--ink-soft); }
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.7rem 0;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
 }
 .brand { display: flex; align-items: center; gap: 0.7rem; font-family: var(--font-head); font-weight: 600; color: var(--ink); }
 .brand:hover { text-decoration: none; }
@@ -163,6 +164,8 @@ p { color: var(--ink-soft); }
 
 @media (max-width: 860px) {
   .nav-toggle { display: inline-flex; margin-left: auto; }
+  .nav { gap: 0; }
+  .nav > nav { width: 0; overflow: visible; flex-shrink: 0; }
   .nav-menu {
     position: absolute;
     left: 0; right: 0; top: 100%;
